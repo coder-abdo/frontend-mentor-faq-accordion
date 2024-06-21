@@ -1,0 +1,153 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- displays site properly based on user's device -->
+    <meta
+      name="description"
+      content="Frequently Asked Questions about Frontend Mentor, a platform for frontend coding challenges."
+    />
+    <meta
+      name="keywords"
+      content="accordion, FAQ,frontend, coding, challenges, html, css, javascript, portfolio"
+    />
+    <meta name="author" content="Abdelmonaem Shahat" />
+    <meta name="robots" content="index, follow" />
+    <meta property="og:title" content="Frontend Mentor FAQs" />
+    <meta
+      property="og:description"
+      content="Frequently Asked Questions about Frontend Mentor, a platform for frontend coding challenges."
+    />
+
+    <meta
+      property="og:url"
+      content="https://www.frontendmentor.io/challenges/faq-accordion-wyfFdeBwBz"
+    />
+    <meta property="og:type" content="website" />
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="32x32"
+      href="./assets/images/favicon-32x32.png"
+    />
+    <link rel="stylesheet" href="style.css" />
+    <title>Frontend Mentor | FAQ accordion</title>
+  </head>
+  <body class="h-screen">
+    <img
+      src="./assets/images/background-pattern-desktop.svg"
+      srcset="
+        ./assets/images/background-pattern-mobile.svg,
+        ./assets/images/background-pattern-desktop.svg
+      "
+      sizes="(max-width:376px) 100vw, (max-width:1440px) 50vw, 100vw"
+      alt="background-pattern-desktop"
+      class="background-pattern"
+    />
+    <section class="faq max-w-lg mx-auto px-2">
+      <div class="accordion">
+        <h1 class="faq__title title flex items-center mb-2">
+          <img
+            src="./assets/images/icon-star.svg"
+            alt="faq icon star"
+            class="title__icon"
+          />
+          <span class="title__text">FAQs</span>
+        </h1>
+        <dl class="faq__list mt-2">
+          <div class="faq__item mb-2">
+            <dt class="faq__question question flex items-center">
+              <span class="question__text"
+                >What is Frontend Mentor, and how will it help me?</span
+              >
+              <button>
+                <img src="./assets/images/icon-plus.svg" alt="icon-plus" />
+              </button>
+            </dt>
+            <dd class="faq__answer">
+              <p>
+                Frontend Mentor offers realistic coding challenges to help
+                developers improve their frontend coding skills with projects in
+                HTML, CSS, and JavaScript. It's suitable for all levels and
+                ideal for portfolio building.
+              </p>
+            </dd>
+          </div>
+          <!-- second question -->
+          <div class="faq__item">
+            <dt class="faq__question question flex items-center mb-2">
+              <span class="question__text">Is Frontend Mentor free?</span>
+              <button>
+                <img src="./assets/images/icon-plus.svg" alt="icon-plus" />
+              </button>
+            </dt>
+            <dd class="faq__answer">
+              <p>
+                Yes, Frontend Mentor offers both free and premium coding
+                challenges, with the free option providing access to a range of
+                projects suitable for all skill levels.
+              </p>
+            </dd>
+          </div>
+          <!-- third question -->
+          <div class="faq__item">
+            <dt class="faq__question flex items-center mb-2">
+              <span class="question__text"
+                >Can I use Frontend Mentor projects in my portfolio?</span
+              >
+
+              <button>
+                <img src="./assets/images/icon-plus.svg" alt="icon-plus" />
+              </button>
+            </dt>
+            <dd class="faq__answer">
+              <p>
+                Yes, you can use projects completed on Frontend Mentor in your
+                portfolio. It's an excellent way to showcase your skills to
+                potential employers!
+              </p>
+            </dd>
+          </div>
+          <!-- fourth question -->
+          <div class="faq__item">
+            <dt class="faq__question question flex items-center mb-2">
+              <span class="question__text"
+                >How can I get help if I'm stuck on a Frontend Mentor
+                challenge?</span
+              >
+
+              <button>
+                <img src="./assets/images/icon-plus.svg" alt="icon-plus" />
+              </button>
+            </dt>
+            <dd class="faq__answer">
+              <p>
+                The best place to get help is inside Frontend Mentor's Discord
+                community. There's a help channel where you can ask questions
+                and seek support from other community members.
+              </p>
+            </dd>
+          </div>
+        </dl>
+      </div>
+    </section>
+
+    <!-- footer   -->
+    <footer>
+      <div class="attribution">
+        Challenge by
+        <a
+          href="https://www.frontendmentor.io?ref=challenge"
+          target="_blank"
+          rel="noopener noreferrer"
+          >Frontend Mentor</a
+        >. Coded by
+        <a href="https://github.com/coder-abdo" rel="noopener noreferrer"
+          >Abdelmonaem Shahat</a
+        >.
+      </div>
+    </footer>
+    <script src="app.js"></script>
+  </body>
+</html>
