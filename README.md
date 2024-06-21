@@ -32,8 +32,8 @@ Users should be able to:
 
 ### Links
 
-- Solution URL: [frontendmentor solution URL](https://your-solution-url.com)
-- Live Site URL: [github pages live site URL](https://your-live-site-url.com)
+- Solution URL: [frontendmentor solution URL](https://www.frontendmentor.io/solutions/faq-accordion-bwT19ee4tT)
+- Live Site URL: [github pages live site URL](https://coder-abdo.github.io/frontend-mentor-faq-accordion/)
 
 ## My process
 
